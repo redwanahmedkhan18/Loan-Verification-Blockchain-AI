@@ -1,0 +1,24 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TrustEdge smart contracts (Hardhat v3, ESM)",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "node": "hardhat node --port 8545",
+    "compile": "hardhat compile",
+    "clean": "hardhat clean",
+    "test": "hardhat test",
+    "deploy:local": "node scripts/deploy_local.js"
+  },
+  "devDependencies": {
+    "hardhat": "^3.0.3",
+    "@nomicfoundation/hardhat-ethers": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^3.0.0",
+    "ethers": "^6.15.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^16.6.1"
+  },
+  "engines": { "node": ">=18.0.0" }
+}

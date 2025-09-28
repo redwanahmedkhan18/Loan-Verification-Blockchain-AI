@@ -1,0 +1,31 @@
+{
+  "rows": 100000,
+  "seed": 42,
+  "noise": 0.03,
+  "features": [
+    "amount",
+    "term_months",
+    "annual_income",
+    "credit_score",
+    "dti",
+    "past_defaults",
+    "employment_years",
+    "savings",
+    "collateral_value",
+    "age",
+    "purpose",
+    "region"
+  ],
+  "accuracy": 0.97295,
+  "confusion_matrix": [
+    [
+      9684,
+      316
+    ],
+    [
+      225,
+      9775
+    ]
+  ],
+  "model_path": "/kaggle/working/models/credit_risk_pipeline.pkl"
+}
